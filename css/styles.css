@@ -72,10 +72,10 @@ button{
 }
 
 .read-more{
-    left: 26%;
+    left: 33%;
     width: fit-content;
     position: relative;
-    margin-top: 7%;
+    margin-top: 18%;
 }
 
 .bg-img {
@@ -108,7 +108,8 @@ span{
 
 
 .crops figure{
-    margin: 6px;
+    margin: auto auto;
+    margin-top: 27px;
     text-align: center;
 }
 
@@ -123,17 +124,18 @@ span{
     margin: 0;
 }
 .missions figure{
-    width: 50%;
+    width: 75%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .missions .sm-img{
     width: 300px;
 }
 
-.missions figcaption{
+.missions figcaption {
     width: 50%;
+    margin: auto;
 }
 
 
@@ -193,7 +195,7 @@ hr{
     background-color: #57984C;
 }
 
-.fa{
+.s-networks .fa{
     color:#57984C;
     border: solid 2px;
     border-radius: 20px;
