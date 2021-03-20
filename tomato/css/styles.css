@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'RobotoSlab-Black';
+    src: url('../fonts/bold/RobotoSlab-Black.eot');
+    src: url('../fonts/bold/RobotoSlab-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bold/RobotoSlab-Black.svg#RobotoSlab-Black') format('svg'),
+         url('../fonts/bold/RobotoSlab-Black.ttf') format('truetype'),
+         url('../fonts/bold/RobotoSlab-Black.woff') format('woff'),
+         url('../fonts/bold/RobotoSlab-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'RobotoSlab-Light';
+    src: url('../fonts/ligth/RobotoSlab-Light.eot');
+    src: url('../fonts/ligth/RobotoSlab-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ligth/RobotoSlab-Light.svg#RobotoSlab-Light') format('svg'),
+         url('../fonts/ligth/RobotoSlab-Light.ttf') format('truetype'),
+         url('../fonts/ligth/RobotoSlab-Light.woff') format('woff'),
+         url('../fonts/ligth/RobotoSlab-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+body{
+    font-family: 'RobotoSlab-Light';
+    color:#324950;
+    font-size: 14pt;
+    background-color: #FCF0F0;
+    display: grid;
+}
+
+header{
+    width: 100%;
+    height: 439px;
+}
+
+.bar{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    float: left;
+    background-color: white;
+}
+
+.back-img{
+    margin: 9px;
+    width: 200px;
+    height: 100px;
+
+}
+
+h1,h2, h5{
+    font-family: RobotoSlab-Black;
+}
+
+p{
+    font-weight: 100;
+}
+
+.nav li{
+    margin: 0 5px;
+}
+
+
+.bg-img {
+    position: relative;
+    width: 100%;
+  }
+
+input{
+    background: transparent;
+    border: none ;
+    border-bottom: solid 2px;
+}
+
+.input-group-addon{
+    position: absolute;
+    left: 92%;
+}
+
+.form-group{
+    text-align: right;
+}
+
+.intro h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+span{
+    font-family: RobotoSlab-Black;
+}
+
+.note{
+    border-left-style: solid;
+    border-left-color: #EB5757;
+    border-left-width: 1px;
+    margin-left: 22%;
+    padding-left: 17px;
+}
+
+.facts{
+    background-color: white;
+}
+
+hr{
+    background-color: #324950;
+}
+
+.tomato p,h5{
+    color:#57984C;
+}
+
+.tomato figcaption{
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    top: 77%;
+    width: 350px;
+}
+
+.tomato figure img{
+    width: 350px;
+    height: 300px;
+}
+
+.tomato figure{
+    margin-bottom: 100px;
+}
+
+.last-row figure{
+    margin-bottom: 0;
+}
+
+
+footer{
+    position: relative;
+    top: 126px;
+    max-width: 100%;
+
+}
+
+
+.s-networks .fa{
+    color:#57984C;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.footer-links{
+    background-color: #2D3F45;
+    text-align: center;
+    color:white;
+}
+.s-networks{
+    width: fit-content;
+    margin: 10px 0;
+    position: relative;
+    left: 400px;
+}
+.footer-links .nav{
+    margin: 10px 6px;
+}
+.footer-links li{
+    margin: 4px 18px;
+}
+
+.copyriths{
+    text-align: center;
+    background-color: #324950;
+    color:white;
+}
