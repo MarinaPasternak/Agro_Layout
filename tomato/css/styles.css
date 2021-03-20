@@ -50,7 +50,12 @@ header{
     margin: 9px;
     width: 200px;
     height: 100px;
+}
 
+.logo{
+    width: 250px;
+    height: 150px;
+    padding: 16px;
 }
 
 h1,h2, h5{
@@ -61,10 +66,17 @@ p{
     font-weight: 100;
 }
 
+.seacr-menu-row{
+    margin: auto 0;
+}
+
 .nav li{
     margin: 0 5px;
 }
 
+header .nav li{
+    font-family: RobotoSlab-Black;
+}
 
 .bg-img {
     position: relative;
@@ -91,6 +103,10 @@ input{
     margin-bottom: 30px;
 }
 
+.intro p{
+    margin-bottom: 1em;
+}
+
 span{
     font-family: RobotoSlab-Black;
 }
@@ -99,7 +115,6 @@ span{
     border-left-style: solid;
     border-left-color: #EB5757;
     border-left-width: 1px;
-    margin-left: 22%;
     padding-left: 17px;
 }
 
@@ -109,32 +124,14 @@ span{
 
 hr{
     background-color: #324950;
+    border-style: solid;
+    border-width: 1px;
 }
 
-.tomato p,h5{
-    color:#57984C;
+.facts h5{
+    color:#324950;
 }
 
-.tomato figcaption{
-    background-color: white;
-    text-align: center;
-    position: absolute;
-    top: 77%;
-    width: 350px;
-}
-
-.tomato figure img{
-    width: 350px;
-    height: 300px;
-}
-
-.tomato figure{
-    margin-bottom: 100px;
-}
-
-.last-row figure{
-    margin-bottom: 0;
-}
 
 
 footer{
@@ -146,10 +143,18 @@ footer{
 
 
 .s-networks .fa{
-    color:#57984C;
-    border: solid 2px;
-    border-radius: 20px;
-    padding: 5px;
+    padding: 10px;
+    color: #57984C;
+    border: solid 2px #57984C;
+    border-radius: 40px;
+    margin-right: 9px;
+}
+
+.s-networks{
+    width: fit-content;
+    margin: 10px 0;
+    position: relative;
+    left: 250px;
 }
 
 .footer-links{
@@ -157,12 +162,7 @@ footer{
     text-align: center;
     color:white;
 }
-.s-networks{
-    width: fit-content;
-    margin: 10px 0;
-    position: relative;
-    left: 400px;
-}
+
 .footer-links .nav{
     margin: 10px 6px;
 }
@@ -174,4 +174,19 @@ footer{
     text-align: center;
     background-color: #324950;
     color:white;
+}
+
+.tomato{
+    margin: auto;
+}
+
+.card{
+    border: none;
+    margin: 4%;
+    padding: 0;
+}
+
+.card p,h5{
+    color:#57984C;
+    text-align: center;
 }
