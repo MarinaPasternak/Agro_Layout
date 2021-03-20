@@ -1,26 +1,27 @@
 @font-face {
     font-family: 'RobotoSlab-Black';
-    src: url('../fonts/bold/RobotoSlab-Black.eot');
-    src: url('../fonts/bold/RobotoSlab-Black.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/bold/RobotoSlab-Black.svg#RobotoSlab-Black') format('svg'),
-         url('../fonts/bold/RobotoSlab-Black.ttf') format('truetype'),
-         url('../fonts/bold/RobotoSlab-Black.woff') format('woff'),
-         url('../fonts/bold/RobotoSlab-Black.woff2') format('woff2');
+    src: url('../../fonts/bold/RobotoSlab-Black.eot');
+    src: url('../../fonts/bold/RobotoSlab-Black.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/bold/RobotoSlab-Black.svg#RobotoSlab-Black') format('svg'),
+         url('../../fonts/bold/RobotoSlab-Black.ttf') format('truetype'),
+         url('../../fonts/bold/RobotoSlab-Black.woff') format('woff'),
+         url('../../fonts/bold/RobotoSlab-Black.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'RobotoSlab-Light';
-    src: url('../fonts/ligth/RobotoSlab-Light.eot');
-    src: url('../fonts/ligth/RobotoSlab-Light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ligth/RobotoSlab-Light.svg#RobotoSlab-Light') format('svg'),
-         url('../fonts/ligth/RobotoSlab-Light.ttf') format('truetype'),
-         url('../fonts/ligth/RobotoSlab-Light.woff') format('woff'),
-         url('../fonts/ligth/RobotoSlab-Light.woff2') format('woff2');
+    src: url('../../fonts/ligth/RobotoSlab-Light.eot');
+    src: url('../../fonts/ligth/RobotoSlab-Light.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/ligth/RobotoSlab-Light.svg#RobotoSlab-Light') format('svg'),
+         url('../../fonts/ligth/RobotoSlab-Light.ttf') format('truetype'),
+         url('../../fonts/ligth/RobotoSlab-Light.woff') format('woff'),
+         url('../../fonts/ligth/RobotoSlab-Light.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
   }
+  
   
 
 body{
