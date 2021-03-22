@@ -22,13 +22,12 @@
     font-style: normal;
   }
   
-  
 
 body{
     font-family: 'RobotoSlab-Light';
     color:#324950;
     font-size: 14pt;
-    background-color: #F7F7F7;
+    background-color: #E5E5E5;
     display: grid;
 }
 
@@ -44,151 +43,145 @@ header{
     left: 0;
     right: 0;
     float: left;
+    background-color: white;
+}
+
+.back-img{
+    margin: 9px;
+    width: 200px;
+    height: 100px;
+}
+
+.logo{
+    width: 250px;
+    height: 150px;
+    padding: 16px;
 }
 
 
-h1,h2{
+#inputSuccess2{
+    position: relative;
+    left: 76%;
+}
+
+.seacr-menu-row i{
+    color:#2D3F45;
+}
+
+h1,h2, h5{
     font-family: RobotoSlab-Black;
-}
-
-.header-phrase{ 
-    color:#735440;
-    text-align: center;
 }
 
 p{
     font-weight: 100;
 }
 
+.seacr-menu-row{
+    margin: auto 0;
+}
+
 .nav li{
     margin: 0 5px;
 }
 
-button{
-    background-color: #57984C;
-    border: none;
-    color:white;
-    margin: 0px 39%;
-    
-}
-
-.read-more{
-    left: 33%;
-    width: fit-content;
-    position: relative;
-    margin-top: 9%;
+header .nav li{
+    font-family: RobotoSlab-Black;
 }
 
 .bg-img {
     position: relative;
     width: 100%;
-    height: 600px;
   }
 
-input{
+.seacr-menu-row input{
     background: transparent;
     border: none ;
     border-bottom: solid 2px;
 }
 
-span{
+.input-group-addon{
     position: absolute;
-    left: 92%;
+    left: 85%;
 }
 
 .form-group{
     text-align: right;
 }
-
-.crops{
-    margin: auto;
-    width: 100%;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 40%;
-}
-
-
-.crops figure{
-    margin: auto auto;
-    margin-top: 27px;
-    text-align: center;
-}
-
-.crops figcaption{
-    margin: center;
-}
-
-.missions{
+main{
     position: relative;
-    top: 250px;
-    width: 100%;
-    margin: 0;
-}
-.missions figure{
-    width: 75%;
-    margin: auto;
-    margin-top: 80px;
-}
-
-.missions .sm-img{
-    width: 300px;
-}
-
-.missions figcaption {
-    width: 50%;
-    margin: auto;
+    top: 174px; 
 }
 
 
-.activities h2{
-    text-align: center;
-    margin: 40px;
-}
-
-.activ{
-    margin: auto;
-    width: 100%;
-    position: relative;
-    left: 0;
-}
-
-.activities{
-    width: 100%;
-    position: relative;
-    top: 250px;
-    max-width: 100%;
-    background-color: #EDEDED;
-}
-
-.activities h3{
-    color: #57984C;
-    text-align: center;
-}
-
-.activities p{
-    text-align: center;
-}
-
-.activ figure{
-    margin: 6px;
-    text-align: center;
-}
-
-.activ figure img{
-   width: 300px;
-   height: 300px;
-}
-
-.cross{
-    margin-bottom: 30px;
-    position: relative;
-    left: 50%;
+span{
+    color:#57984C;
 }
 
 hr{
     background-color: #57984C;
+    border: solid 1px #57984C;
+    width: 200px;
+}
+
+.contact-us{
+    margin: auto;
+    width: fit-content;
+}
+
+.form-group{
+    width: 350px;
+    text-align: left;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 15px !important
+}
+
+form input, select{
+    width: 350px !important;
+    line-height: 2.5 !important;
+    border-radius: 12px !important;
+
+}
+
+form select{
+    width: 350px !important;
+    height: calc(3.875rem + 2px) !important;
+}
+
+.d-flex input{
+    margin: 0px 40px;
+    width: 200px !important;
+}
+
+
+.long-inp{
+    width: 650px !important;
+}
+
+textarea{
+    height: 430px;
+    border-radius: 12px !important;
+
+}
+.cross{
+    margin: 35px 0;
+}
+button{
+    width: 255px;
+    background-color: #57984C;
+    color: white;
+    font-weight: bold;
+    padding: 0.7rem 4.75rem;
+    border-radius: 37px;
+    border: none;
+}
+
+.capture{
+    width: 350px;
+    height: 40px;
+    margin: auto;
 }
 
 footer{
@@ -199,6 +192,16 @@ footer{
     top: 250px;
 }
 
+.adress{
+    text-align: center;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.adress p{
+    margin-top: -0.9em;
+}
 
 .s-networks .fa{
     padding: 10px;
