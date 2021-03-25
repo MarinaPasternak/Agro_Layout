@@ -22,7 +22,6 @@
     font-style: normal;
   }
   
-  
 
 body{
     font-family: 'RobotoSlab-Light';
@@ -76,13 +75,12 @@ button{
     left: 33%;
     width: fit-content;
     position: relative;
-    margin-top: 9%;
+    margin-top: 18%;
 }
 
 .bg-img {
     position: relative;
     width: 100%;
-    height: 600px;
   }
 
 input{
@@ -106,7 +104,6 @@ span{
     background-color: white;
     position: absolute;
     left: 0;
-    top: 40%;
 }
 
 
@@ -122,7 +119,7 @@ span{
 
 .missions{
     position: relative;
-    top: 250px;
+    top: 126px;
     width: 100%;
     margin: 0;
 }
@@ -157,9 +154,9 @@ span{
 .activities{
     width: 100%;
     position: relative;
-    top: 250px;
+    top: 126px;
     max-width: 100%;
-    background-color: #EDEDED;
+    background-color: #EDEDED
 }
 
 .activities h3{
@@ -187,32 +184,21 @@ span{
     left: 50%;
 }
 
+footer{
+    position: relative;
+    top: 126px;
+    max-width: 100%;
+}
+
 hr{
     background-color: #57984C;
 }
 
-footer{
-    position: relative;
-    max-width: 100%;
-    height: 30px;
-    width: 100%;
-    top: 250px;
-}
-
-
 .s-networks .fa{
-    padding: 10px;
-    color: #57984C;
-    border: solid 2px #57984C;
-    border-radius: 40px;
-    margin-right: 9px;
-}
-
-.s-networks{
-    width: fit-content;
-    margin: 10px 0;
-    position: relative;
-    left: 175px;
+    color:#57984C;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 .footer-links{
@@ -220,7 +206,12 @@ footer{
     text-align: center;
     color:white;
 }
-
+.s-networks{
+    width: fit-content;
+    margin: 10px 0;
+    position: relative;
+    left: 3%;
+}
 .footer-links .nav{
     margin: 10px 6px;
 }
@@ -239,7 +230,7 @@ a{
     text-decoration: none;
 }
 
- footer a{
-    color:white;
-    text-decoration: none;
+footer a{    
+	text-decoration: none;
+	color: white;
 }

@@ -74,6 +74,10 @@ p{
     margin: 0 5px;
 }
 
+ nav{
+    padding: 0 !important;
+ }
+
 header .nav li{
     font-family: RobotoSlab-Black;
 }
@@ -100,7 +104,7 @@ input{
 }
 main{
     position: relative;
-    top: 8%;
+    top: 174px; 
 }
 
 .intro h1{
@@ -119,13 +123,13 @@ span{
 .note{
     border-left-style: solid;
     border-left-color: #EB5757;
-    border-left-width: 1px;
     padding-left: 17px;
 }
 
 .facts{
     background-color: white;
 }
+
 
 hr{
     background-color: #324950;
@@ -217,5 +221,31 @@ a{
 }
 
 .justify-content-start .card{
-    margin-right: 4%;
+    margin-right: 5%;
+}
+
+.navbar-toggler span{
+    display: grid;
+    height: 2px;
+    background-color: #2D3F45;
+    margin: 7px;
+}
+
+.navbar-toggler{
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.grid-block-tomato{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.grid-block-facts{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 25px;
+    padding: 20px;
 }

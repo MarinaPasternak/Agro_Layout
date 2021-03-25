@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <title>Agridera</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responcive.css">
     <script src="https://use.fontawesome.com/17250ce87d.js"></script>
   </head>
   <body>
@@ -23,18 +25,25 @@
                                 <i class="fa fa-search"></i>
                             </span>
                         </div>
+                        <nav class="navbar navbar-default">
                         <ul class="d-flex nav">
                             <a href="../main/index.html"><li class="nav-item">Home</li></a>
                             <li class="nav-item">Company</li>
-                            <li class="nav-item">Profile</li>
+                            <a href="../tomato-one/index.html"><li class="nav-item">Profile</li></a>
                             <a href="index.html"><li class="nav-item">Products</li></a>
                             <li class="nav-item">Services</li>
                             <li class="nav-item">R & D</li>
                             <a href="../contact us/index.html"><li class="nav-item">Contact</li></a>
-                        </ul> 
-                    </div>      
+                        </ul>
+                        </nav>
+                    </div>       
                 </div>               
             </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button> 
         </div>   
     </header>
     <main>
@@ -62,8 +71,8 @@
                 Agirdera Tomato breeding programs are focusing on three main segments: Greenhouse Indeterminate Tomatoes, Open-field Indeterminate Tomatoes, and Bush Type Open-field Tomatoes.
             </div>
             <div class="container facts mt-4">
-                <div class="row row-flex justify-content-center pt-5">
-                    <div class="col-4 align-self-start">
+                <div class="row row-flex justify-content-center pt-5 grid-block-facts">
+                    <div class="">
                         <h5>Greenhouse Tomato Breeding Program</h5>
                         <hr>
                         <p>
@@ -74,7 +83,7 @@
                             Leveillula Taurica (Lv). 
                         </p>
                     </div> 
-                    <div class="col-4 align-self-start">
+                    <div class="">
                         <h5 class="mt-4">Open-field Indeterminate Tomatoes</h5>
                         <hr>
                         <p>
@@ -85,7 +94,7 @@
                             resistance in our cultivars.
                         </p>
                     </div>
-                    <div class="col-4 align-self-start">
+                    <div class="">
                         <h5 class="mt-4">Open-field Bush Type Tomatoes</h5>
                         <hr>
                         <p>
@@ -106,16 +115,16 @@
         
        
         <div class="container tomato justify-content-center">
-            <div class="row justify-content-center">
-                <div class="card col-3" >
+            <div class="row justify-content-center grid-block-tomato">
+                <div class="card" >
                     <img class="card-img-top" src="img/1.png" alt="Card image cap">
                     <div class="card-body">
                         <h5>TAG 1000 (TAG 853)</h5>
                         <p>Tomato Determinate Red Standard Round</p>
                     </div>
-                  </div>
+                    </div>
 
-                <div class="card col-3" >
+                <div class="card" >
                     <img class="card-img-top" src="img/2.png" alt="Card image cap">
                     <div class="card-body">
                         <h5>TAG 1001 (TAG 855)</h5>
@@ -123,60 +132,55 @@
                     </div>
                 </div>
 
-                <div class="card col-3" >
+                <div class="card" >
                     <a href="../tomato-one/index.html"><img class="card-img-top" src="img/3.png" alt="Card image cap"></a>
                     <div class="card-body">
                         <a href="../tomato-one/index.html"><h5>TAG 1002 (TAG 809)</h5></a>
                         <p>Tomato Determinate Red Standard Round</p>
                     </div>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="card col-3" >
+                <div class="card" >
                     <img class="card-img-top" src="img/4.png" alt="Card image cap">
                     <div class="card-body">
                         <h5>TAG 1003 (TAG 834 )</h5>
                         <p>Tomato Determinate Red Standard Round</p>
                     </div>
                 </div>
-                <div class="card col-3" >
+                <div class="card" >
                     <img class="card-img-top" src="img/5.png" alt="Card image cap">
                     <div class="card-body">
                         <h5>TAG 1004 (TAG 848)</h5>
                         <p>Tomato Determinate Red BEEF Round</p>
                     </div>
                 </div>
-                <div class="card col-3">
+                <div class="card">
                     <img class="card-img-top" src="img/6.png" alt="Card image cap">
                     <div class="card-body">
                         <h5>TAG 1004 (TAG 848)</h5>
                         <p>Tomato Determinate Red BEEF Round</p>
                     </div>
                 </div>
-            </div>
-            <div class="row justify-content-start">
-                <div class="card col-3">
+                <div class="card">
                     <img class="card-img-top" src="img/7.png" alt="Card image cap">
                     <div class="card-body">
                         <h5>TAG 1006 (TAG 898)</h5>
                         <p>Tomato Determinate Red Elongated</p>
                     </div>
                 </div>
-                <div class="card col-3">
+                <div class="card">
                     <img class="card-img-top" src="img/8.png" alt="Card image cap">
                     <div class="card-body">
                         <h5>TAG 1007 (TAG 816)</h5>
                         <p>Tomato Determinate Red Elongated</p>
                     </div>
                 </div>
-            </div>
         </div>
 
     </main>
     <footer>
         <div class="d-flex footer-links justify-content-center">
             <ul class="d-flex nav">
-                <li class="nav-item">PROFILE</li>
+                <a href="../tomato-one/index.html"><li class="nav-item">PROFILE</li></a>
                 <li class="nav-item">MANAGEMENT</li>
                 <a href="index.html"><li class="nav-item">PRODUCTS</li></a>
                 <li class="nav-item">R&D</li>
