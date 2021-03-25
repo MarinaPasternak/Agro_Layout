@@ -60,7 +60,7 @@ header{
 
 #inputSuccess2{
     position: relative;
-    left: 76%;
+    left: 55%;
 }
 
 .seacr-menu-row i{
@@ -101,7 +101,7 @@ header .nav li{
 
 .input-group-addon{
     position: absolute;
-    left: 85%;
+    left: 93%;
 }
 
 .form-group{
@@ -131,7 +131,6 @@ hr{
 }
 
 .form-group{
-    width: 350px;
     text-align: left;
 }
 
@@ -160,14 +159,22 @@ form select{
 .d-flex{
     width: fit-content;
 }
+.form-group input{ 
+    border-radius: 12px !important;
+}
 
+.contact-us{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 20px;
+}
 
 .long-inp{
     width: 500px !important;
 }
 
 textarea{
-    height: 430px;
+    height: 366px;
     border-radius: 12px !important;
 }
 
@@ -252,4 +259,26 @@ a{
  footer a{
     color:white;
     text-decoration: none;
+}
+
+nav{
+    padding: 0 !important;
+ }
+
+.navbar-toggler span{
+    display: grid;
+    height: 2px;
+    background-color: #2D3F45;
+    margin: 7px;
+}
+
+.navbar-toggler{
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.second-block{
+    margin-top: 23%;
 }

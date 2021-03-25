@@ -164,11 +164,6 @@ h5{
     border-radius: 20px;
 }
 
-.download{
-    position: relative;
-    left: 320px;
-}
-
 footer{
 
     position: relative;
@@ -219,4 +214,40 @@ a{
  footer a{
     color:white;
     text-decoration: none;
+}
+
+
+
+nav{
+    padding: 0 !important;
+ }
+
+.navbar-toggler span{
+    display: grid;
+    height: 2px;
+    background-color: #2D3F45;
+    margin: 7px;
+}
+
+.navbar-toggler{
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.grid-block{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    margin: auto;
+    width: fit-content;
+}
+
+.tomato-pict{
+    width: 60%;
+}
+
+.second-block{
+    display: grid;
+    grid-auto-rows: min-content;
 }
