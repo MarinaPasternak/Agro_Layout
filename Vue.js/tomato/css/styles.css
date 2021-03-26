@@ -27,7 +27,7 @@ body{
     font-family: 'RobotoSlab-Light';
     color:#324950;
     font-size: 14pt;
-    background-color: #FCF0F0;
+    background-color: #faf0de;
     display: grid;
 }
 
@@ -248,4 +248,8 @@ a{
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-column-gap: 25px;
     padding: 20px;
+}
+
+.card-img-top {
+    height: 250px;
 }
