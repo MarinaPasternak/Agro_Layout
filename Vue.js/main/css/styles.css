@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'RobotoSlab-Black';
+    src: url('../../fonts/bold/RobotoSlab-Black.eot');
+    src: url('../../fonts/bold/RobotoSlab-Black.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/bold/RobotoSlab-Black.svg#RobotoSlab-Black') format('svg'),
+         url('../../fonts/bold/RobotoSlab-Black.ttf') format('truetype'),
+         url('../../fonts/bold/RobotoSlab-Black.woff') format('woff'),
+         url('../../fonts/bold/RobotoSlab-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'RobotoSlab-Light';
+    src: url('../../fonts/ligth/RobotoSlab-Light.eot');
+    src: url('../../fonts/ligth/RobotoSlab-Light.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/ligth/RobotoSlab-Light.svg#RobotoSlab-Light') format('svg'),
+         url('../../fonts/ligth/RobotoSlab-Light.ttf') format('truetype'),
+         url('../../fonts/ligth/RobotoSlab-Light.woff') format('woff'),
+         url('../../fonts/ligth/RobotoSlab-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+body{
+    font-family: 'RobotoSlab-Light';
+    color:#324950;
+    font-size: 14pt;
+    background-color: #F7F7F7;
+    display: grid;
+}
+
+header{
+    width: 100%;
+    height: 439px;
+}
+
+.bar{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    float: left;
+}
+
+
+h1,h2{
+    font-family: RobotoSlab-Black;
+}
+
+.header-phrase{ 
+    color:#735440;
+    text-align: center;
+}
+
+p{
+    font-weight: 100;
+}
+
+.nav li{
+    margin: 0 5px;
+}
+
+button{
+    background-color: #57984C;
+    border: none;
+    color:white;
+    margin: 0px 39%;
+    
+}
+
+.read-more{
+    left: 36%;
+    width: fit-content;
+    position: relative;
+    margin-top: 5%;
+}
+
+.bg-img {
+    position: relative;
+    width: 100%;
+    height:550px;
+  }
+
+input{
+    background: transparent;
+    border: none ;
+    border-bottom: solid 2px;
+}
+
+.search-i{
+    position: absolute;
+    left: 92%;
+}
+
+.form-group{
+    text-align: right;
+}
+
+.crops{
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+
+.crops figure{
+    margin-top: 27px;
+    text-align: center;
+}
+
+.crops figcaption{
+    margin: center;
+}
+
+.missions{
+    position: relative;
+    top: 126px;
+    width: 100%;
+    margin: 0;
+}
+.missions figure{
+    width: 75%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.missions .sm-img{
+    width: 300px;
+}
+
+.missions figcaption {
+    width: 50%;
+    margin: auto;
+}
+
+
+.activities h2{
+    text-align: center;
+    margin: 40px;
+}
+
+.activ{
+    margin: auto;
+    width: 100%;
+    position: relative;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+}
+
+.activities{
+    width: 100%;
+    position: relative;
+    top: 126px;
+    max-width: 100%;
+    background-color: #EDEDED
+}
+
+.activities h3{
+    color: #57984C;
+    text-align: center;
+}
+
+.activities p{
+    text-align: center;
+}
+
+.activ figure{
+    margin: 6px;
+    text-align: center;
+}
+
+.activ figure img{
+   width: 300px;
+   height: 300px;
+}
+
+.cross{
+    margin-bottom: 30px;
+    position: relative;
+    left: 50%;
+}
+
+footer{
+    position: relative;
+    top: 126px;
+    max-width: 100%;
+    height: 50px;
+}
+
+hr{
+    background-color: #57984C;
+}
+
+.s-networks .fa{
+    color:#57984C;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.footer-links{
+    background-color: #2D3F45;
+    text-align: center;
+    color:white;
+}
+.s-networks{
+    width: fit-content;
+    margin: 10px 0;
+    position: relative;
+    left: 3%;
+}
+.footer-links .nav{
+    margin: 10px 6px;
+}
+.footer-links li{
+    margin: 4px 18px;
+}
+
+.copyriths{
+    text-align: center;
+    background-color: #324950;
+    color:white;
+}
+
+a{
+    color:#2D3F45;
+    text-decoration: none;
+}
+
+footer a{    
+	text-decoration: none;
+	color: white;
+}
+
+
+nav{
+    padding: 0 !important;
+ }
+
+.navbar-toggler span{
+    display: grid;
+    height: 2px;
+    background-color: #2D3F45;
+    margin: 7px;
+}
+
+.navbar-toggler{
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: -200px;
+}

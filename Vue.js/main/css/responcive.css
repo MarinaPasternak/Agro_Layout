@@ -1,0 +1,138 @@
+@media (min-width: 1024px){
+    .navbar-toggler{
+        display: none;
+    }
+    .navbar{
+        display: block;
+    }
+    .crops{
+        grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    }
+}
+
+@media (max-width: 1500px){
+
+    .s-networks{
+        left: 0%;
+    }  
+    .s-networks{
+        left: 0%;
+    }  
+    main{
+        padding-left: 40px;
+    }
+    .read-more {
+        left: 21%;
+        width: fit-content;
+        position: relative;
+        margin-top: 7%;
+    }
+
+    .missions {
+        top: 200px;
+    }
+
+    .activities {
+        top: 350px;
+    }
+
+    footer {
+        top: 400px;
+    }
+
+    .activ{
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+
+    .crops{
+        grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    }
+}
+
+@media (max-width: 1024px){
+    .navbar-toggler{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+
+    header .row {
+        display: grid;
+        JUSTIFY-CONTENT: center;
+    }
+    .s-networks{
+        left: 0%;
+    }  
+
+    main{
+        padding-left: 40px;
+    }
+
+    footer {
+        top: 400px;
+    }
+    
+    .read-more{
+        left: 15%;
+        margin-top: 6%;
+    }
+    .crops{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .activ{
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    }
+}
+
+@media (max-width: 768px){
+
+    .activ{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .read-more {
+        left: 0;
+        margin-top: 6%;
+    }
+
+}
+
+@media (max-width: 640px){
+   
+}
+
+
+@media (max-width: 480px){
+    
+}
+
+@media (max-width: 400px){
+
+}
+
+@media (max-width: 320px){
+    .navbar-toggler{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    header .row {
+        display: grid;
+        JUSTIFY-CONTENT: center;
+    }
+
+
+    .grid-block{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .download {
+        position: relative;
+        left: 0;
+    }
+    
+
+}
