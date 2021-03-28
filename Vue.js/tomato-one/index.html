@@ -45,14 +45,13 @@
             </button> 
         </div>   
     </header>
-    <main>
-        
-       <div class="conteiner grid-block">
+
+    <main id="app">
+       <div class="conteiner grid-block"  :v-bind="product">
                <div class="mr-5 info">	
                    <a href="../tomato/index.html"><p class="mt-3 mb-4 arrow"> Return to all tomatoes</p></a>
-                   <h1 class="green-title"><span>TAG 1002 (TAG 809)</span>
-                    Tomato Determinate
-                    Red Standard Round</h1>
+                   <h1 class="green-title"><span>{{product.title}}</span>
+                    {{product.short_text}}</h1>
                     <img src="img/Union.png" class="mt-5 mb-5">
                     <div class="conteiner d-flex mr-auto">
                         <img src="img/Group 17.png" class="mr-3">
@@ -83,8 +82,16 @@
                     </div>
                 </div>
                <div class="second-block">
-                   <img src="img/image 3.png" class="tomato-pict">
-                   <img src="img/btn.png" class="mt-4 download">
+                   <img :src="product.image" class="tomato-pict">
+                   <button class="mt-4 download" 
+                           v-on:click="addToCart(product.id)"
+                           v-if="!btnVisible"
+                        >
+                       Add to cart
+                    </button>
+                    <button class="mt-4 download" v-if="btnVisible">
+                        <a href="../contact us/index.html">Go to cart</a>
+                    </button>
                    <div class="conteiner mt-5">
                         <h5 class="line">Cycle</h5>
                         <ul>
@@ -124,5 +131,7 @@
             <p class="copyriths-text">AGRIDERA SEEDS & AGRICULTURE LTD. © 2020</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

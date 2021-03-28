@@ -9,6 +9,14 @@
         position: relative;
         left: 40%;
     }
+
+    .grid-block{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .tomato-pict {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1500px){

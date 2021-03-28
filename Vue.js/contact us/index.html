@@ -46,70 +46,111 @@
             </button>  
         </div>   
     </header>
-    <main>
-        
-        <div class="conteiner contact-us">
-            <div>
-                <h1>Contact us</h1>
-                <img src="img/Union.png" class="cross">
-                <div class="form-group">
-                    <label for="name">Name*</label>
-                    <input type="text" class="form-control form-control-lg" id="name" required> 
-                </div>
-                <div class="form-group">
-                    <label for="companyName">Company Name</label>
-                    <input type="text" class="form-control form-control-lg" id="companyName" > 
-                </div>
-                <div class="form-group">
-                    <label for="position">Position</label>
-                    <input type="text" class="form-control form-control-lg" id="position" > 
-                </div>
-                <div class="form-group">
-                    <label for="City">City</label>
-                    <input type="text" class="form-control form-control-lg" id="city" > 
-                </div>
-                <div class="form-group">
-                    <label for="country">Country</label>
-                    <input type="text" class="form-control form-control-lg" id="country" > 
-                </div>
-                <div class="form-group">
-                    <label for="telephone">Telephone</label>
-                    <input type="tel" class="form-control form-control-lg" id="telephone" > 
-                </div>
-                <div class="form-group">
-                    <label for="email">Email*</label>
-                    <input type="email" class="form-control form-control-lg" id="email" required> 
-                </div>
-            </div>
-            <div class="second-block">
-                <div class="form-group">
-                    <label for="role">You are a</label>
-                    <select class="form-control form-control-lg long-inp" id="role" >
-                        <option>seed producer</option>
-                    </select> 
-                </div>
-                <div class="form-group">
-                    <label for="other">If other, please specify</label>
-                    <input type="text" class="form-control form-control-lg long-inp" id="other" > 
-                </div>
-                <div class="form-group">
-                    <label for="comment">You are interested in</label>
-                    <textarea class="form-control form-control-lg long-inp" id="comment" > </textarea>
-                </div>
-                <div class="form-group">
-                    <label for="comment">You are interested in</label>
-                    <div class="d-flex">
-                        <img src="img/image 12.png" class="capture">
-                        <input type="text" class="form-control form-control-lg"> 
-                        <button type="button" >Send Message</button> 
-                    </div>
-                </div>
-            </div>
-                
 
-                
+    <main id="app"> 
+        <div  class="conteiner ">
+                <form v-if="!formShow" form v-on:submit.prevent="makeOrder" class="contact-us">
+                    <div>
+                        <h1>Contact us</h1>
+                        <img src="img/Union.png" class="cross">
+                        <table class="table ">
+                            <thead>
+                                <tr>
+                                  <th scope="col">id</th>
+                                  <th scope="col">Img</th>
+                                  <th scope="col">Title</th>
+                                  <th scope="col">Short Text</th>
+                                  <th scope="col">Action</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr v-for="item in cart">
+                                  <th scope="row">{{item.id}}</th>
+                                  <td><img  :src="item.image" alt="Card image cap"></td>
+                                  <td>{{item.title}}</td>
+                                  <td>{{item.short_text}}</td>
+                                  <td>
+                                    <button v-on:click="removeFromCart(item.id)" type="button" class="close" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                  </td>
+                                </tr>
+                              </tbody>
+                          </table>
+                        <div class="form-group">
+                            <label for="name">Name*</label>
+                            <input v-model="contactFields.name" type="text" class="form-control form-control-lg" id="name" required> 
+                        </div>
+                        <div class="form-group">
+                            <label for="companyName">Company Name</label>
+                            <input v-model="contactFields.companyName" type="text" class="form-control form-control-lg" id="companyName" > 
+                        </div>
+                        <div class="form-group">
+                            <label for="position">Position</label>
+                            <input v-model="contactFields.position" type="text" class="form-control form-control-lg" id="position" > 
+                        </div>
+                        <div class="form-group">
+                            <label for="City">City</label>
+                            <input v-model="contactFields.city" type="text" class="form-control form-control-lg" id="city" > 
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <input v-model="contactFields.country" type="text" class="form-control form-control-lg" id="country" > 
+                        </div>
+                        <div class="form-group">
+                            <label for="telephone">Telephone</label>
+                            <input v-model="contactFields.telephone" type="tel" class="form-control form-control-lg" id="telephone" > 
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email*</label>
+                            <input v-model="contactFields.email" type="email" class="form-control form-control-lg" id="email" required> 
+                        </div>
+                    </div>
+                    <div class="second-block">
+                        <div class="form-group">
+                            <label for="role">You are a</label>
+                            <select v-model.lazy="contactFields.role" class="form-control form-control-lg long-inp" id="role" >
+                                <option>seed producer</option>
+                            </select> 
+                        </div>
+                        <div class="form-group">
+                            <label for="other">If other, please specify</label>
+                            <input v-model="contactFields.other" type="text" class="form-control form-control-lg long-inp" id="other" > 
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">You are interested in</label>
+                            <textarea :v-model="contactFields.comment" class="form-control form-control-lg long-inp" id="comment" > </textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">You are interested in</label>
+                            <div class="d-flex">
+                                <img src="img/image 12.png" class="capture">
+                                <input type="text" class="form-control form-control-lg"> 
+                                <input type="submit" value="Send Message"> 
+                            </div>
+                        </div>
+                    </div>
+                   
+                   
+                   
+                </form>
+
         </div>
         
+
+        <div v-if="formShow" class="info-order">
+            <p>Name: {{contactFields.name}}</p>
+            <p>Company: {{contactFields.companyName}}</p>
+            <p>Position: {{contactFields.position}}</p>
+            <p>City: {{contactFields.city}}</p>
+            <p>Country: {{contactFields.country}}</p>
+            <p>Telephone: {{contactFields.telephone}}</p>
+            <p>Email: {{contactFields.email}}</p>
+            <p>Role: {{contactFields.role}}</p>
+            <p>Other: {{contactFields.other}}</p>
+            <p>Comment: {{contactFields.comment}}</p>
+            <p></p>
+        </div>
 
     </main>
     <footer>
@@ -143,5 +184,8 @@
             <p class="copyriths-text">AGRIDERA SEEDS & AGRICULTURE LTD. © 2020</p>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

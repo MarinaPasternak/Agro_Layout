@@ -139,12 +139,6 @@ label{
     margin-bottom: 15px !important
 }
 
-form input, select{
-    width: 350px !important;
-    line-height: 2.5 !important;
-    border-radius: 12px !important;
-
-}
 
 form select{
     width: 350px !important;
@@ -165,8 +159,10 @@ form select{
 
 .contact-us{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 0fr 1fr;
     grid-column-gap: 20px;
+    width: fit-content;
+    margin: auto;
 }
 
 .long-inp{
@@ -181,8 +177,8 @@ textarea{
 .cross{
     margin: 35px 0;
 }
-button{
-    width: 255px;
+input[type="submit"]{
+    width: 255px !important;
     background-color: #57984C;
     color: white;
     font-weight: bold;
@@ -280,5 +276,32 @@ nav{
 }
 
 .second-block{
-    margin-top: 23%;
+    width: fit-content;
+}
+
+tr img{font: fallback;
+    width: 100px;
+}
+
+th,td, tr {
+    padding: 3px;
+    border-bottom: 1px solid #2D3F45;
+}
+
+thead{
+    text-align: center;
+}
+
+table{
+    width: 600px !important;
+}
+
+.close{
+    width: fit-content;
+}
+
+.info-order{
+    margin: auto;
+    width: fit-content;
+    font-family: 'RobotoSlab-Black';
 }

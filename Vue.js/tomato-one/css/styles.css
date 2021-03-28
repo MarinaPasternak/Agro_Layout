@@ -121,7 +121,7 @@ input{
 }
 
 
-.green-title, .resist span{
+.green-title span, .resist span{
     color:#324950;
     font-family: RobotoSlab-Black;
 }
@@ -250,4 +250,14 @@ nav{
 .second-block{
     display: grid;
     grid-auto-rows: min-content;
+}
+
+button{
+    width: 200px;
+    background-color: transparent;
+    border: solid 3px #57984C;
+    border-radius: 23px;
+    padding: 5px 3px;
+    color:#57984C;
+    font-family: 'RobotoSlab-Black';
 }

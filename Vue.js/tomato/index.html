@@ -119,9 +119,13 @@
             <div class="row justify-content-center grid-block-tomato" >
 
                 <div class="card" v-for="item in products">
-                    <img  :src="item.image" class="card-img-top" alt="Card image cap">
+                    <a :href="'../tomato-one/index.html#'+item.id">
+                        <img  :src="item.image" class="card-img-top" alt="Card image cap">
+                    </a>
                     <div class="card-body">
-                        <h5>{{item.title}}</h5>
+                        <a :href="'../tomato-one/index.html#'+item.id">
+                            <h5>{{item.title}}</h5>
+                        </a>
                         <p>{{item.short_text}}</p>
                     </div>
                 </div>
