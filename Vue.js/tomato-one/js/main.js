@@ -27,13 +27,13 @@ var app = new Vue({
             }
         },
         addToCart: function(id) {
-            let cart = "";
+            let cart = [];
             if(window.localStorage.getItem('cart')) {
                 cart = window.localStorage.getItem('cart').split(',');
                 this.btnVisible = 0;
             }
             else{
-                window.localStorage.setItem('cart', "");
+                window.localStorage.setItem('cart', []);
             }
             
             if(cart.indexOf(String(id))==-1) {

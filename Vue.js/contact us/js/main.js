@@ -31,6 +31,7 @@ var app = new Vue({
                 for(let j=0; j<this.products.length; j++){
                     if(localArray[i] == this.products[j].id){
                         this.cart.push(this.products[j]);
+                        console.log(this.cart);
                     }
                 }
             }
@@ -62,13 +63,13 @@ var app = new Vue({
 
         makeOrder: function () {
             this.formShow = 1;
-            localStorage.clear();
+            window.localStorage.setItem('cart', "");
             console.log(this.contactFields);
 
         }
 
     },
-    beforeMount(){
+    mounted(){
       this.getCart();
     },
 
