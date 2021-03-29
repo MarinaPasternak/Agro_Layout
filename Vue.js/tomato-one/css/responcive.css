@@ -74,7 +74,19 @@
 }
 
 @media (max-width: 768px){
+    .tomato-pict {
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+    }
 
+    .download {
+        margin: auto;
+    }
+
+    main{
+        padding: 15px;
+    }
    
 }
 
@@ -88,7 +100,9 @@
 }
 
 @media (max-width: 400px){
-
+    .stiker{
+        height: 120px;
+    }
 }
 
 @media (max-width: 320px){
@@ -103,14 +117,12 @@
         JUSTIFY-CONTENT: center;
     }
 
-
     .grid-block{
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 
     .download {
-        position: relative;
-        left: 0;
+        margin: auto;
     }
     
 

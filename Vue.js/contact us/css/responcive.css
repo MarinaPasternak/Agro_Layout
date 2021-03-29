@@ -15,9 +15,6 @@
     .s-networks{
         left: 0%;
     }  
-    main{
-        padding-left: 40px;
-    }
 }
 
 @media (max-width: 1024px){

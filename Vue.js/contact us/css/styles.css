@@ -142,7 +142,6 @@ label{
 
 form select{
     width: 350px !important;
-    height: calc(3.875rem + 2px) !important;
 }
 
 .d-flex input{
@@ -159,7 +158,7 @@ form select{
 
 .contact-us{
     display: grid;
-    grid-template-columns: 0fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-column-gap: 20px;
     width: fit-content;
     margin: auto;
@@ -293,15 +292,30 @@ thead{
 }
 
 table{
-    width: 600px !important;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    margin: auto;
+    margin-bottom: 58px;
+}
+
+tbody{
+    text-align: center;
 }
 
 .close{
     width: fit-content;
+    position: relative;
+    right: 48%;
 }
 
 .info-order{
     margin: auto;
     width: fit-content;
     font-family: 'RobotoSlab-Black';
+}
+
+main{
+    padding: 15px;
 }

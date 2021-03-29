@@ -48,35 +48,36 @@
     </header>
 
     <main id="app"> 
-        <div  class="conteiner ">
-                <form v-if="!formShow" form v-on:submit.prevent="makeOrder" class="contact-us">
+        <div  class="conteiner " v-if="!formShow">
+            <table class="table ">
+                <thead>
+                    <tr>
+                      <th scope="col">id</th>
+                      <th scope="col">Img</th>
+                      <th scope="col">Title</th>
+                      <th scope="col">Short Text</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="item in cart">
+                      <th scope="row">{{item.id}}</th>
+                      <td><img  :src="item.image" alt="Card image cap"></td>
+                      <td>{{item.title}}</td>
+                      <td>{{item.short_text}}</td>
+                      <td>
+                        <button v-on:click="removeFromCart(item.id)" type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                      </td>
+                    </tr>
+                  </tbody>
+              </table>
+                <form  form v-on:submit.prevent="makeOrder" class="contact-us">
                     <div>
                         <h1>Contact us</h1>
                         <img src="img/Union.png" class="cross">
-                        <table class="table ">
-                            <thead>
-                                <tr>
-                                  <th scope="col">id</th>
-                                  <th scope="col">Img</th>
-                                  <th scope="col">Title</th>
-                                  <th scope="col">Short Text</th>
-                                  <th scope="col">Action</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr v-for="item in cart">
-                                  <th scope="row">{{item.id}}</th>
-                                  <td><img  :src="item.image" alt="Card image cap"></td>
-                                  <td>{{item.title}}</td>
-                                  <td>{{item.short_text}}</td>
-                                  <td>
-                                    <button v-on:click="removeFromCart(item.id)" type="button" class="close" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                      </button>
-                                  </td>
-                                </tr>
-                              </tbody>
-                          </table>
+                        
                         <div class="form-group">
                             <label for="name">Name*</label>
                             <input v-model="contactFields.name" type="text" class="form-control form-control-lg" id="name" required> 
@@ -129,12 +130,8 @@
                                 <input type="submit" value="Send Message"> 
                             </div>
                         </div>
-                    </div>
-                   
-                   
-                   
+                    </div>  
                 </form>
-
         </div>
         
 
