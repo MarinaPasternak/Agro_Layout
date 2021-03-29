@@ -36,13 +36,16 @@ header{
 }
 
 .bar{
-    position: absolute;
+    position: relative;
     z-index: 2;
     top: 0;
     left: 0;
     right: 0;
     float: left;
+    width: 100%;
     background-color: white;
+    margin: auto;
+    top: -480px;
 }
 
 .back-img{
@@ -107,10 +110,12 @@ header .nav li{
 .form-group{
     text-align: right;
 }
-main{
+
+main {
+    top: -150px;
     position: relative;
-    top: 10%;
 }
+
 .col-4{
     max-width: 100%;
 }

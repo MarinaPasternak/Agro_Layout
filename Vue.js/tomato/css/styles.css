@@ -37,10 +37,11 @@ header{
 }
 
 .bar{
-    position: absolute;
-    z-index: 2;
+    position: relative;
     top: 0;
     left: 0;
+    top: -600px;
+    width: 100%;
     right: 0;
     float: left;
     background-color: white;

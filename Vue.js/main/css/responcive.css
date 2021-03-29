@@ -8,6 +8,10 @@
     .crops{
         grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
     }
+
+    .missions figure {
+        width: 75%;
+    }
 }
 
 @media (max-width: 1500px){
@@ -19,7 +23,7 @@
         left: 0%;
     }  
     main{
-        padding-left: 40px;
+        padding: 15px;
     }
     .read-more {
         left: 21%;
@@ -65,12 +69,9 @@
         left: 0%;
     }  
 
-    main{
-        padding-left: 40px;
-    }
 
     footer {
-        top: 400px;
+        top: 370px;
     }
     
     .read-more{
@@ -84,6 +85,15 @@
     .activ{
         grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     }
+
+    .missions {
+        top: 300px;
+    }
+
+    .activities {
+        top: 350px;
+    }
+    
 }
 
 @media (max-width: 768px){
@@ -95,6 +105,21 @@
     .read-more {
         left: 0;
         margin-top: 6%;
+    }
+
+    .missions .sm-img {
+        width: 300px;
+        height: 300px;
+    }
+    .missions {
+        top: 500px;
+    }
+    .activities {
+        top: 550px;
+    }
+
+    footer {
+        top: 570px;
     }
 
 }
