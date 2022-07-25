@@ -22,8 +22,7 @@
     font-style: normal;
   }
   
-
-body{
+body {
     font-family: 'RobotoSlab-Light';
     color:#324950;
     font-size: 14pt;
@@ -34,16 +33,16 @@ body{
     background-repeat: no-repeat; 
 }
 
-header{
+header {
     width: 100%;
     height: 200px;
 }
 
-main{
+main {
     padding-bottom: 100px;
 }
 
-.bar{
+.bar {
     position: absolute;
     z-index: 2;
     top: 0;
@@ -54,125 +53,120 @@ main{
     box-shadow:1px 10px 16px 2px rgba(0,0,0,0.31);
 }
 
-
 .arrow:before {
     content: ' \2190';
 }
 
-.arrow{
+.arrow {
     color: #57984C;
     font-family: 'RobotoSlab-Black';
 }
 
 
-.green-title{
+.green-title {
     color:#57984C;
 }
 
-.logo{
+.logo {
     width: 250px;
     height: 150px;
     padding: 16px;
 }
 
-h1,h2,h3, h5{
+h1, h2, h3, h5 {
     font-family: 'RobotoSlab-Black';
 }
 
-h3{
+h3 {
     color: #CF2333;
     margin: auto;
 }
 
-p, li{
+p, li {
     font-weight: bold;
 }
 
-.mt-5 li{
+.mt-5 li {
     margin: 15px;
 }
 
-.seacr-menu-row{
+.seacr-menu-row {
     margin: auto 0;
 }
 
-.nav li{
+.nav li {
     margin: 0 5px;
 }
 
-header .nav li{
+header .nav li {
     font-family: RobotoSlab-Black;
 }
 
-
-input{
+input {
     background: transparent;
     border: none ;
     border-bottom: solid 2px;
 }
 
-.input-group-addon{
+.input-group-addon {
     position: absolute;
     left: 92%;
 }
 
-.form-group{
+.form-group {
     text-align: right;
 }
 
-
-.green-title, .resist span{
+.green-title, .resist span {
     color:#324950;
     font-family: RobotoSlab-Black;
 }
 
-hr{
+hr {
     background-color: #57984C;
     border:solid 1px #57984C;
 }
 
-h5{
+h5 {
     color: #57984C;
     width: 205px;
     padding-bottom: 10px;
     margin-bottom: 30px;
 }
 
-.line{
+.line {
     border-bottom: solid;
     border-bottom-width: 2px;
     border-bottom-color: #57984C;
 }
 
-.conteiner ul{
+.conteiner ul {
     padding: 0px;
     padding-left: 8px;
 }
 
 
-.green-mark{
+.green-mark {
     color:#57984C;
 }
 
-.list-text{
+.list-text {
     color:#324950;
 }
 
-#file{
+#file {
     background-color: #57984C;
     border:solid 1px #57984C;
     border-radius: 20px;
 }
 
-footer{
-
+footer {
     position: relative;
     max-width: 100%;
     height: 50px;
-
 }
 
-.s-networks .fa{
+.s-networks .fa {
     padding: 10px;
     color: #57984C;
     border: solid 2px #57984C;
@@ -180,74 +174,72 @@ footer{
     margin-right: 9px;
 }
 
-.s-networks{
+.s-networks {
     width: fit-content;
     margin: 10px 0;
     position: relative;
     left: 250px;
 }
 
-.footer-links{
+.footer-links {
     background-color: #2D3F45;
     text-align: center;
     color:white;
 }
 
-.footer-links .nav{
+.footer-links .nav {
     margin: 10px 6px;
 }
-.footer-links li{
+.footer-links li {
     margin: 4px 18px;
 }
 
-.copyriths{
+.copyriths {
     text-align: center;
     background-color: #324950;
     color:white;
 }
 
-a{
+a {
     color:#2D3F45;
     text-decoration: none;
 }
 
- footer a{
+ footer a {
     color:white;
     text-decoration: none;
 }
 
-
-
-nav{
+nav {
     padding: 0 !important;
- }
+}
 
-.navbar-toggler span{
+.navbar-toggler span {
     display: grid;
     height: 2px;
     background-color: #2D3F45;
     margin: 7px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     background-color: white;
     position: absolute;
     top: 10px;
     right: 10px;
 }
 
-.grid-block{
+.grid-block {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     margin: auto;
     width: fit-content;
 }
 
-.tomato-pict{
+.tomato-pict {
     width: 60%;
 }
 
-.second-block{
+.second-block {
     display: grid;
     grid-auto-rows: min-content;
 }

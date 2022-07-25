@@ -1,28 +1,26 @@
-@media (min-width: 1024px){
-    .navbar-toggler{
+@media (min-width: 1024px) {
+    .navbar-toggler {
         display: none;
     }
-    .navbar{
+    .navbar {
         display: block;
     }
-    .crops{
+    .crops {
         grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
     }
 }
 
-@media (max-width: 1500px){
+@media (max-width: 1500px) {
+    .s-networks {
+        left: 0%;
+    } 
 
-    .s-networks{
+    .s-networks {
         left: 0%;
     }  
-    .s-networks{
-        left: 0%;
-    }  
-    main{
-        padding-left: 40px;
-    }
+
     .read-more {
-        left: 21%;
+        left: 20%;
         width: fit-content;
         position: relative;
         margin-top: 7%;
@@ -40,20 +38,20 @@
         top: 400px;
     }
 
-    .activ{
+    .activ {
         grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     }
 
-    .crops{
+    .crops {
         grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
     }
 }
 
-@media (max-width: 1024px){
-    .navbar-toggler{
+@media (max-width: 1024px) {
+    .navbar-toggler {
         display: block;
     }
-    .navbar{
+    .navbar {
         display: none;
     }
 
@@ -61,34 +59,30 @@
         display: grid;
         JUSTIFY-CONTENT: center;
     }
-    .s-networks{
+    .s-networks {
         left: 0%;
-    }  
-
-    main{
-        padding-left: 40px;
     }
 
     footer {
         top: 400px;
     }
     
-    .read-more{
+    .read-more {
         left: 15%;
         margin-top: 6%;
     }
-    .crops{
+    .crops {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 
-    .activ{
+    .activ {
         grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
-    .activ{
+    .activ {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 
@@ -97,35 +91,28 @@
         margin-top: 6%;
     }
 
-}
-
-@media (max-width: 640px){
-   
-}
-
-
-@media (max-width: 480px){
-    
-}
-
-@media (max-width: 400px){
+    .missions .sm-img {
+        height: 250px;
+        width: 250px;
+    }
 
 }
 
-@media (max-width: 320px){
-    .navbar-toggler{
+@media (max-width: 320px) {
+    .navbar-toggler {
         display: block;
     }
-    .navbar{
+
+    .navbar {
         display: none;
     }
+    
     header .row {
         display: grid;
         JUSTIFY-CONTENT: center;
     }
 
-
-    .grid-block{
+    .grid-block {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 
@@ -133,6 +120,4 @@
         position: relative;
         left: 0;
     }
-    
-
 }

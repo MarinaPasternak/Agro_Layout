@@ -23,7 +23,7 @@
   }
   
 
-body{
+body {
     font-family: 'RobotoSlab-Light';
     color:#324950;
     font-size: 14pt;
@@ -31,12 +31,11 @@ body{
     display: grid;
 }
 
-header{
+header {
     width: 100%;
-    height: 439px;
 }
 
-.bar{
+.bar {
     position: absolute;
     z-index: 2;
     top: 0;
@@ -46,24 +45,24 @@ header{
 }
 
 
-h1,h2{
+h1, h2 {
     font-family: RobotoSlab-Black;
 }
 
-.header-phrase{ 
+.header-phrase { 
     color:#735440;
     text-align: center;
 }
 
-p{
+p {
     font-weight: 100;
 }
 
-.nav li{
+.nav li {
     margin: 0 5px;
 }
 
-button{
+button {
     background-color: #57984C;
     border: none;
     color:white;
@@ -71,8 +70,8 @@ button{
     
 }
 
-.read-more{
-    left: 36%;
+.read-more {
+    left: 28%;
     width: fit-content;
     position: relative;
     margin-top: 5%;
@@ -84,54 +83,51 @@ button{
     height:550px;
   }
 
-input{
+input {
     background: transparent;
     border: none ;
     border-bottom: solid 2px;
 }
 
-.search-i{
+.search-i {
     position: absolute;
     left: 92%;
 }
 
-.form-group{
+.form-group {
     text-align: right;
 }
 
-.crops{
+.crops {
+    display: grid;
     margin: auto;
     width: 100%;
     background-color: white;
-    position: absolute;
-    left: 0;
-    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 
 
-.crops figure{
+.crops figure {
     margin-top: 27px;
     text-align: center;
 }
 
-.crops figcaption{
+.crops figcaption {
     margin: center;
 }
 
-.missions{
+.missions {
     position: relative;
     top: 126px;
     width: 100%;
     margin: 0;
 }
-.missions figure{
+
+.missions figure {
     width: 75%;
-    margin: auto;
-    margin-top: 80px;
 }
 
-.missions .sm-img{
+.missions .sm-img {
     width: 300px;
 }
 
@@ -141,12 +137,12 @@ input{
 }
 
 
-.activities h2{
+.activities h2 {
     text-align: center;
     margin: 40px;
 }
 
-.activ{
+.activ {
     margin: auto;
     width: 100%;
     position: relative;
@@ -155,7 +151,7 @@ input{
     grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
 }
 
-.activities{
+.activities {
     width: 100%;
     position: relative;
     top: 126px;
@@ -163,96 +159,99 @@ input{
     background-color: #EDEDED
 }
 
-.activities h3{
+.activities h3 {
     color: #57984C;
     text-align: center;
 }
 
-.activities p{
+.activities p {
     text-align: center;
 }
 
-.activ figure{
+.activ figure {
     margin: 6px;
     text-align: center;
 }
 
-.activ figure img{
+.activ figure img {
    width: 300px;
    height: 300px;
 }
 
-.cross{
+.cross {
     margin-bottom: 30px;
     position: relative;
     left: 50%;
 }
 
-footer{
+footer {
     position: relative;
     top: 126px;
     max-width: 100%;
     height: 50px;
 }
 
-hr{
+hr {
     background-color: #57984C;
 }
 
-.s-networks .fa{
+.s-networks .fa {
     color:#57984C;
     border: solid 2px;
     border-radius: 20px;
     padding: 5px;
 }
 
-.footer-links{
+.footer-links {
     background-color: #2D3F45;
     text-align: center;
     color:white;
 }
-.s-networks{
+
+.s-networks {
     width: fit-content;
     margin: 10px 0;
     position: relative;
     left: 3%;
 }
-.footer-links .nav{
+
+.footer-links .nav {
     margin: 10px 6px;
 }
-.footer-links li{
+
+.footer-links li {
     margin: 4px 18px;
 }
 
-.copyriths{
+.copyriths {
     text-align: center;
     background-color: #324950;
     color:white;
 }
 
-a{
+a {
     color:#2D3F45;
     text-decoration: none;
 }
 
-footer a{    
+footer a {    
 	text-decoration: none;
 	color: white;
 }
 
 
-nav{
+nav {
     padding: 0 !important;
  }
 
-.navbar-toggler span{
+.navbar-toggler span {
     display: grid;
     height: 2px;
     background-color: #2D3F45;
     margin: 7px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     background-color: transparent;
     position: absolute;
     top: 10px;

@@ -22,8 +22,7 @@
     font-style: normal;
   }
   
-
-body{
+body {
     font-family: 'RobotoSlab-Light';
     color:#324950;
     font-size: 14pt;
@@ -31,12 +30,12 @@ body{
     display: grid;
 }
 
-header{
+header {
     width: 100%;
     height: 439px;
 }
 
-.bar{
+.bar {
     position: absolute;
     z-index: 2;
     top: 0;
@@ -46,39 +45,39 @@ header{
     background-color: white;
 }
 
-.back-img{
+.back-img {
     margin: 9px;
     width: 200px;
     height: 100px;
 }
 
-.logo{
+.logo {
     width: 250px;
     height: 150px;
     padding: 16px;
 }
 
-h1,h2, h5{
+h1, h2, h5{
     font-family: RobotoSlab-Black;
 }
 
-p{
+p {
     font-weight: 100;
 }
 
-.seacr-menu-row{
+.seacr-menu-row {
     margin: auto 0;
 }
 
-.nav li{
+.nav li {
     margin: 0 5px;
 }
 
- nav{
+nav {
     padding: 0 !important;
- }
+}
 
-header .nav li{
+header .nav li {
     font-family: RobotoSlab-Black;
 }
 
@@ -88,63 +87,62 @@ header .nav li{
     height: 600px;
 }
 
-input{
+input {
     background: transparent;
     border: none ;
     border-bottom: solid 2px;
 }
 
-.input-group-addon{
+.input-group-addon {
     position: absolute;
     left: 92%;
 }
 
-.form-group{
+.form-group {
     text-align: right;
 }
-main{
+
+main {
     position: relative;
     top: 174px; 
 }
 
-.intro h1{
+.intro h1 {
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
-.intro p{
+.intro p {
     margin-bottom: 1em;
 }
 
-span{
+span {
     font-family: RobotoSlab-Black;
 }
 
-.note{
+.note {
     border-left-style: solid;
     border-left-color: #EB5757;
     padding-left: 17px;
 }
 
-.facts{
+.facts {
     background-color: white;
 }
 
 
-hr{
+hr {
     background-color: #324950;
     border-style: solid;
     border-width: 1px;
 }
 
-.facts h5{
+.facts h5 {
     color:#324950;
     text-align: left;
 }
 
-
-
-footer{
+footer {
     position: relative;
     max-width: 100%;
     height: 30px;
@@ -153,7 +151,7 @@ footer{
 }
 
 
-.s-networks .fa{
+.s-networks .fa {
     padding: 10px;
     color: #57984C;
     border: solid 2px #57984C;
@@ -161,89 +159,89 @@ footer{
     margin-right: 9px;
 }
 
-.s-networks{
+.s-networks {
     width: fit-content;
     margin: 10px 0;
     position: relative;
     left: 4%
 }
 
-.footer-links{
+.footer-links {
     background-color: #2D3F45;
     text-align: center;
     color:white;
 }
 
-.footer-links .nav{
+.footer-links .nav {
     margin: 10px 6px;
 }
-.footer-links li{
+.footer-links li {
     margin: 4px 18px;
 }
 
-.copyriths{
+.copyriths {
     text-align: center;
     background-color: #324950;
     color:white;
 }
 
-.tomato{
+.tomato {
     margin: auto;
 }
 
-.card{
+.card {
     border: none;
     margin: 2%;
     padding: 0;
 }
 
-.card p,h5{
+.card p, h5 {
     color:#57984C;
     text-align: center;
 }
 
-a{
+a {
     color:#2D3F45;
     text-decoration: none;
 }
 
- footer a{
+ footer a {
     color:white;
     text-decoration: none;
 }
 
-.card-body a{
+.card-body a {
     color:#57984C;
 }
 
-.justify-content-start{
+.justify-content-start {
     margin-left: 6%;
 }
 
-.justify-content-start .card{
+.justify-content-start .card {
     margin-right: 5%;
 }
 
-.navbar-toggler span{
+.navbar-toggler span {
     display: grid;
     height: 2px;
     background-color: #2D3F45;
     margin: 7px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     background-color: white;
     position: absolute;
     top: 10px;
     right: 10px;
 }
 
-.grid-block-tomato{
+.grid-block-tomato {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-.grid-block-facts{
+.grid-block-facts {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-column-gap: 25px;
